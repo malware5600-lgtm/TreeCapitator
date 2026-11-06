@@ -1,0 +1,25 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Tree Capitator Pack",
+    "description": "Derruba árvores inteiras de uma só vez com machado!",
+    "uuid": "a1b2c3d4-e5f6-7a8b-9c0d-112233445566",
+    "version": [1, 0, 0],
+    "min_engine_version": [1, 20, 0]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "uuid": "f6e5d4c3-b2a1-0987-6543-210987654321",
+      "entry": "scripts/main.js",
+      "version": [1, 0, 0]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "1.8.0"
+    }
+  ]
+}
